@@ -1,0 +1,19 @@
+body {
+  box-sizing: border-box;
+  background-color: #949494;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  text-align: center;
+}
+
+input , label {
+  width: 100%;
+  display: block;
+  height: 2em;
+  border-radius: 3px;
+}

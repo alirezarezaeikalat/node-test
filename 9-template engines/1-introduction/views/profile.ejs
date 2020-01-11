@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>This is the profile of: <%=name %>  using ejs</h1>
+    <h2> His job is <%=data.job %> </h2>
+    <br>
+    <p> this is the test of javaScript</p>
+    <h2>Hobbies</h2>
+    <ul>
+      <% hobbies.forEach(function(hobby) { %>
+
+        <li> <%= hobby %> </li>
+
+      <% }); %>
+    </ul>
+  </body>
+</html>

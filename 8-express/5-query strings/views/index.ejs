@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is the test of query strings</title>
+    <link rel="stylesheet" href="../public/styles.css">
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <form id="contact-form">
+      <label for="who">who do you want to contact?</label>
+      <input type="text" name="who" value="<%= qs.name %>">
+      <label for="department">Which department</label>
+      <input type="text" name="department" value="<%= qs.dept %>">
+      <label for="email">Your email</label>
+      <input type="text" name="email">
+    </form>
+
+  </body>
+</html>
